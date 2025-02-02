@@ -1,0 +1,32 @@
+{
+    "target_in_veh_notify_title": "Alert!",
+    "target_in_veh_notify_msg": "The target is currently inside a vehicle.",
+
+    "trunk_occupied_notify_title": "Alert!",
+    "trunk_occupied_notify_msg": "This trunk is already in use.",
+
+    "stop_carry_textui": "[G] - Cease Carrying",
+    "leave_trunk_textui": "[E] - Exit Trunk",
+
+    "stop_carry_keybind_description": "Cancel Carrying Action",
+    "leave_trunk_keybind_description": "Exit Vehicle Trunk",
+
+    "target_carry_player": "Initiate Carry",
+    "target_remove_from_trunk": "Extract Person from Trunk",
+    "target_put_person_in_trunk": "Conceal Person in Trunk",
+    "target_hide_in_trunk": "Disguise in Trunk",
+    "target_leave_trunk": "Exit Trunk",
+
+    "webhook_start_carry_title": "Carry Initiated",
+    "webhook_start_carry_msg": "A player has successfully lifted another player.",
+    "webhook_stop_carry_title": "Carry Released",
+    "webhook_stop_carry_msg": "A player has released another player from being carried.",
+    "webhook_lifter_name_and_id": "Carrier name + ID",
+    "webhook_lifted_name_and_id": "Carried name + ID",
+    "webhook_distance_between_lifter_and_lifted": "Distance at Time of Carry",
+    "webhook_hide_in_trunk_title": "Trunk Concealment",
+    "webhook_hide_in_trunk_msg": "A player has concealed another player within a trunk.",
+    "webhook_hide_lifter": "Carrier name + ID",
+    "webhook_hide_lifted": "Concealed Player player name + ID",
+    "webhook_hide_vehicle": "Vehicle Network ID"
+}
