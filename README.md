@@ -22,4 +22,5 @@ This resource provides a carry and trunk script for FiveM using QBCore. It inclu
 
 ## License
 
-*Specify your license here (if applicable).*
+- GNU GENERAL PUBLIC LICENSE
+- Version 3, 29 June 2007
