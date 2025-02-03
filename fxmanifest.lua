@@ -2,7 +2,7 @@ fx_version "cerulean"
 
 description "bc_carryandhideintrunk"
 author "DingoDrama"
-version '1.0.1'
+version '1.0.2'
 
 use_experimental_fxv2_oal 'yes'
 lua54 'yes'
