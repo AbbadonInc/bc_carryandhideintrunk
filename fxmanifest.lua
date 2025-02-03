@@ -1,11 +1,13 @@
-shared_script '@sultan_rs_mod/ai_module_fg-obfuscated.lua'
-shared_script '@sultan_rs_mod/shared_fg-obfuscated.lua'
 fx_version "cerulean"
-game "gta5"
 
-description "BC-CarryAndHideInTrunk"
+description "bc_carryandhideintrunk"
 author "DingoDrama"
 version '1.0.1'
+
+use_experimental_fxv2_oal 'yes'
+lua54 'yes'
+
+game "gta5"
 
 client_scripts {
     "config.lua",
@@ -15,14 +17,14 @@ client_scripts {
 shared_script '@ox_lib/init.lua'
 
 server_scripts {
-    "server/main.lua"
-    "server/discord_webhook.lua',  -- Webhook functionality"
+    "server/main.lua",
+    "server/discord_webhook.lua"  -- Webhook functionality
 }
 
 files {
     'locales/*.json'
 }
-dependencies {
-    '/onesync',
-}
 
+escrow_ignore {
+    "**.*",
+}
